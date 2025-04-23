@@ -11,7 +11,11 @@
 }
 
 .styles_form__Ld2wh {
-    background: var(--base-50);
+    background: linear-gradient(135deg, 
+    #e6effb 0%,  /* Pastel blue */
+    #dbddfa 50%, /* Pastel purple */
+    #ebf0fa 100% /* Light pastel blue */
+);
     box-shadow: var(--ds-light-medium);
     border-radius: 20px;
     padding: 32px;
@@ -55,6 +59,7 @@
     margin-top: 32px;
     width: 100%;
     background-color: rgb(169, 165, 216);
+    color: white;
 }
 
 .styles_or__zkL7T {
@@ -382,5 +387,56 @@
     .styles_formWrapper__6Q_X6 {
         max-width: 600px;
         margin: 0
+    }
+}
+
+.styles_mainItemsList__JjSEi {
+    display: flex;
+    flex-grow: 1;
+    list-style-type: none;
+    margin-left: 2px;
+    padding-left: 7px;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.styles_mainItem__64H_x {
+    font-size: var(--btn--size);
+    font-weight: var(--btn--base-font-weight);
+    letter-spacing: var(--btn--letter-spacing);
+    line-height: var(--btn--line-height);
+    align-items: center;
+    border-radius: 12px;
+    color: var(--base-800);
+    gap: 8px;
+    height: 48px;
+    padding-inline: 16px;
+    transition: background-color var(--fast-duration) var(--base-easing);
+    min-width: 100px; /* Ensure minimum width for buttons */
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+@media screen and (min-width:1440px) {
+    .styles_mainItem__64H_x {
+        font-size: var(--btn-extra-small--size);
+        font-weight: var(--btn--base-font-weight);
+        letter-spacing: var(--btn-extra-small--letter-spacing);
+        line-height: var(--btn-extra-small--line-height);
+        height: 40px;
+        min-width: 80px; /* Slightly smaller on larger screens */
+    }
+}
+
+/* Ensure buttons are visible on mobile */
+@media screen and (max-width: 991px) {
+    .styles_mainItemsList__JjSEi {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 8px;
+    }
+    
+    .styles_mainItem__64H_x {
+        height: 40px;
+        padding-inline: 12px;
+        font-size: 14px;
     }
 }
