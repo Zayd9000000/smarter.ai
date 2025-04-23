@@ -53,7 +53,8 @@
 
 .styles_submitBtn__L4Nij {
     margin-top: 32px;
-    width: 100%
+    width: 100%;
+    background-color: linear-gradient(135deg, #B4D5FF 0%,  /* Pastel blue */ #9BA1FF 50%, /* Pastel purple */ #D4E1FF 100% /* Light pastel blue */ );
 }
 
 .styles_or__zkL7T {
@@ -204,63 +205,64 @@
 .styles_mainContent__7IDA2 {
     padding-inline: 15px;
     padding-top: 82px;
-    background-color: color(white);
-    background-image: url(cool.jpg);
+    background-color: #fff;
+    background-image: url(_next/static/media/cool.jpg);
     background-size: cover;
     background-position: 200% 0
 }
 
 @media screen and (min-width:720px) {
     .styles_mainContent__7IDA2 {
-        padding-inline: 60px
+        padding-inline: 60px;
     }
 }
 
 @media screen and (min-width:992px) {
     .styles_mainContent__7IDA2 {
-        padding-inline: 40px
+        padding-inline: 40px;
     }
 }
 
 @media screen and (min-width:479px) {
     .styles_mainContent__7IDA2 {
-        padding-top: 92px
+        padding-top: 92px;
     }
 }
 
 @media screen and (min-width:720px) {
     .styles_mainContent__7IDA2 {
-        padding-top: 124px
+        padding-top: 124px;
     }
 }
 
 @media screen and (min-width:992px) {
     .styles_mainContent__7IDA2 {
-        padding-top: 104px
+        padding-top: 104px;
     }
 }
 
 @media screen and (min-width:1440px) {
     .styles_mainContent__7IDA2 {
-        padding-top: 124px
+        padding-top: 124px;
     }
 }
 
 @media screen and (min-width:720px) {
     .styles_mainContent__7IDA2 {
-        background-image: url(cool.jpg)
-    }
+        background-image: url(_next/static/media/cool.jpg);
+        background-color: #fff;    }
 }
 
 @media screen and (min-width:1280px) {
     .styles_mainContent__7IDA2 {
-        background-image: url(cool.jpg)
-    }
+        background-image: url(_next/static/media/cool.jpg);
+        background-color: #fff;    }
 }
 
 @media screen and (min-width:2200px) {
     .styles_mainContent__7IDA2 {
-        background-image: url(cool.jpg)
+        background-image: url(_next/static/media/cool.jpg);
+        background-color: #fff;
     }
 }
 
@@ -308,7 +310,11 @@
     line-height: var(--hd-h6-5--line-height);
     margin-bottom: 15px;
     text-wrap: balance;
-    background: linear-gradient(135deg, #4F46E5, #EC4899, #8B5CF6);
+    background: linear-gradient(135deg, 
+    #B4D5FF 0%,  /* Pastel blue */
+    #9BA1FF 50%, /* Pastel purple */
+    #D4E1FF 100% /* Light pastel blue */
+);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

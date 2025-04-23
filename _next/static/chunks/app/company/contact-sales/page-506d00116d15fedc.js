@@ -171,11 +171,7 @@
                                 children: (0, r.jsxs)("div", {
                                     className: A().successInner,
                                     children: [(0, r.jsx)(m.default, {
-                                        className: A().successLogo,
-                                        width: 89,
-                                        height: 89,
-                                        src: x,
-                                        alt: ""
+                        
                                     }), (0, r.jsx)("h3", {
                                         className: A().successHd,
                                         children: "Thank you!"
@@ -348,16 +344,7 @@
                
             }
         },
-        12160: function(e) {
-            e.exports = {
-                socialProof: "styles_socialProof__lV8zN",
-                socialProofHd: "styles_socialProofHd__gthid",
-                logos: "styles_logos__q1zEa",
-                spacer: "styles_spacer__yCjFX",
-                isLast: "styles_isLast__VPkDc",
-                "slide-bg-back-and-forth": "styles_slide-bg-back-and-forth__umXZ_"
-            }
-        },
+       
         43261: function(e) {
             e.exports = {
                 mainContent: "styles_mainContent__7IDA2",

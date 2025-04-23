@@ -1635,32 +1635,7 @@
                         className: ti().mobile,
                         children: [(0, M.jsxs)("div", {
                             className: ti().barContent,
-                            children: [(0, M.jsxs)("div", {
-                                className: ti().barBtns,
-                                children: [(0, M.jsx)(F, {
-                                    isCompact: !0,
-                                    tag: "a",
-                                    linkProps: {
-                                        href: "/login"
-                                    },
-                                    isGray: !0,
-                                    children: "Log in"
-                                }), (0, M.jsx)(F, {
-                                    isCompact: !0,
-                                    tag: "a",
-                                    linkProps: {
-                                        href: "/signup"
-                                    },
-                                    children: "Sign up"
-                                })]
-                            }), (0, M.jsx)("div", {
-                                className: ti().barContentDivider
-                            }), (0, M.jsx)(tC, {
-                                isOpen: n,
-                                setIsOpen: r,
-                                navWrapperRef: t,
-                                scrollableElRef: s
-                            })]
+                            
                         }), (0, M.jsx)("div", {
                             ref: s,
                             className: tm({

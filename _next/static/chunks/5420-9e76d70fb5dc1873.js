@@ -1550,39 +1550,8 @@
                                             requestAnimationFrame(animate);
                                         },
                                         children: "Product"
-                                    })
-                                }), (0, M.jsx)("li", {
-                                    children: (0, M.jsx)("button", {
-                                        className: e3().mainItem,
-                                        onClick: () => {
-                                            window.location.href = "/features";
-                                        },
-                                        children: "Features"
-                                    })
-                                }), (0, M.jsx)("li", {
-                                    children: (0, M.jsx)("button", {
-                                        className: e3().mainItem,
-                                        onClick: () => {
-                                            window.location.href = "/pricing";
-                                        },
-                                        children: "Pricing"
-                                    })
-                                }), (0, M.jsx)("li", {
-                                    children: (0, M.jsx)("button", {
-                                        className: e3().mainItem,
-                                        onClick: () => {
-                                            window.location.href = "/resources";
-                                        },
-                                        children: "Resources"
-                                    })
-                                }), (0, M.jsx)("li", {
-                                    children: (0, M.jsx)("button", {
-                                        className: e3().mainItem,
-                                        onClick: () => {
-                                            window.location.href = "/blog";
-                                        },
-                                        children: "Blog"
-                                    })
+                                    }), 
+                                    
                                 })]
                             })
                         }), (0, M.jsx)("div", {

@@ -2569,6 +2569,11 @@ a.styles_primaryBtn__6yxCh {
     }
 }
 
+/* Hide login and signup buttons on contact page */
+body[data-page="contact"] .styles_barBtns__Pgy6D {
+    display: none !important;
+}
+
 .styles_scrollableArea__ltRVk {
     scrollbar-width: none;
     -webkit-backdrop-filter: blur(10px);
