@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Whimsical’s Blog</title>
+        <link>whimsical.com</link>
+        <description>From brainstorm to launch—plan, create, manage, and communicate in one workspace. Experience the difference of calm, focused work for you and your team.</description>
+        <lastBuildDate>Thu, 10 Apr 2025 16:12:12 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>Whimsical’s Blog</title>
+            <url>https://whimsical.com/_next_public/brand/logo-color.svg</url>
+            <link>whimsical.com</link>
+        </image>
+        <copyright>© 2025, Whimsical, Inc</copyright>
+        <item>
+            <title><![CDATA[Async vs. Real-Time Work Survey: How Does Your Team Work Best?]]></title>
+            <link>whimsical.com/blog/async-vs-real-time-work-survey</link>
+            <guid>whimsical.com/blog/async-vs-real-time-work-survey</guid>
+            <pubDate>Tue, 08 Apr 2025 16:00:39 GMT</pubDate>
+            <author>hello@whimsical.com (Ryan Peterson)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/8216d88adf84587132ef3ec83ea94a1263756023-1300x1040.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[How we use Whimsical and Front for a smooth customer experience]]></title>
+            <link>whimsical.com/blog/how-we-use-whimsical-and-front</link>
+            <guid>whimsical.com/blog/how-we-use-whimsical-and-front</guid>
+            <pubDate>Wed, 02 Apr 2025 20:30:00 GMT</pubDate>
+            <author>hello@whimsical.com (Jade Shearstone)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/cf55e7d7d45257136a95e2b9b11a82031567a6e1-1300x1040.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[Going 0 to 1-ish]]></title>
+            <link>whimsical.com/blog/going-0-to-1ish</link>
+            <guid>whimsical.com/blog/going-0-to-1ish</guid>
+            <pubDate>Mon, 29 Jan 2024 17:00:00 GMT</pubDate>
+            <author>hello@whimsical.com (Kaspars Dancis)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/2d5ce69d5dd2f8ae006cc3892fcd578eb7842499-1592x1352.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[How Whimsical became more ‘whimsical’ in 2023]]></title>
+            <link>whimsical.com/blog/how-whimsical-became-more-whimsical-in-2023</link>
+            <guid>whimsical.com/blog/how-whimsical-became-more-whimsical-in-2023</guid>
+            <pubDate>Thu, 21 Dec 2023 15:40:00 GMT</pubDate>
+            <author>hello@whimsical.com (Michelle Johannesson)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/2e782e3fc98f0840b05dbe600b0e273e38b1d0e5-1592x1352.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[How async work inspires craftsmanship]]></title>
+            <link>whimsical.com/blog/how-async-work-inspires-craftsmanship</link>
+            <guid>whimsical.com/blog/how-async-work-inspires-craftsmanship</guid>
+            <pubDate>Fri, 01 Dec 2023 15:40:00 GMT</pubDate>
+            <author>hello@whimsical.com (Diāna Lāce Davidova)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/1ff413cf82874de981dea36282023e22077a33ee-1592x1352.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[Building the Whimsical text editor: part 2]]></title>
+            <link>whimsical.com/blog/building-the-whimsical-text-editor-part-2</link>
+            <guid>whimsical.com/blog/building-the-whimsical-text-editor-part-2</guid>
+            <pubDate>Thu, 16 Nov 2023 17:48:00 GMT</pubDate>
+            <author>hello@whimsical.com (Nate Hunzaker)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/527434049b2a21c603005f0d479a4c5ea0c0e3f9-1592x1352.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[Building the Whimsical text editor: part 1]]></title>
+            <link>whimsical.com/blog/building-the-whimsical-text-editor-part-1</link>
+            <guid>whimsical.com/blog/building-the-whimsical-text-editor-part-1</guid>
+            <pubDate>Fri, 03 Nov 2023 18:52:00 GMT</pubDate>
+            <author>hello@whimsical.com (Nate Hunzaker)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/ef063b888fcba4a607a62de75408eebb44db08a8-1592x1352.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[Creating a fast, familiar writing experience in Whimsical]]></title>
+            <link>whimsical.com/blog/creating-a-fast-familiar-writing-experience-in-whimsical</link>
+            <guid>whimsical.com/blog/creating-a-fast-familiar-writing-experience-in-whimsical</guid>
+            <pubDate>Wed, 25 Oct 2023 20:22:00 GMT</pubDate>
+            <author>hello@whimsical.com (Amy Brumet)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/5a09544d957133379ab93fd6cdf5d6181f0d2d06-1592x1352.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[Design details that help our users move faster]]></title>
+            <link>whimsical.com/blog/design-details-that-help-our-users-move-faster</link>
+            <guid>whimsical.com/blog/design-details-that-help-our-users-move-faster</guid>
+            <pubDate>Thu, 12 Oct 2023 15:37:00 GMT</pubDate>
+            <author>hello@whimsical.com (Todd Moy)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/52e4fe9580ee2c1d1f9fbb1b6fce173984845ec2-1592x1352.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[Craftsmanship, the heart of Whimsical]]></title>
+            <link>whimsical.com/blog/craftsmanship-the-heart-of-whimsical</link>
+            <guid>whimsical.com/blog/craftsmanship-the-heart-of-whimsical</guid>
+            <pubDate>Wed, 04 Oct 2023 21:35:00 GMT</pubDate>
+            <author>hello@whimsical.com (Steve Schoeffel)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/5188173b12426f475aa06826fac21db26d37fd13-1592x1352.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[How we redefined our Engineering career path]]></title>
+            <link>whimsical.com/blog/how-we-redefined-our-engineering-career-path</link>
+            <guid>whimsical.com/blog/how-we-redefined-our-engineering-career-path</guid>
+            <pubDate>Fri, 04 Aug 2023 19:00:00 GMT</pubDate>
+            <author>hello@whimsical.com (Marcel Huss-Nielsen)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/ee884ca2bea9065af1b8725c137ae0ec96859849-1592x1352.webp" length="0" type="image/webp"/>
+        </item>
+        <item>
+            <title><![CDATA[Introducing teams and your new sidebar]]></title>
+            <link>whimsical.com/blog/introducing-teams-and-your-new-sidebar</link>
+            <guid>whimsical.com/blog/introducing-teams-and-your-new-sidebar</guid>
+            <pubDate>Wed, 08 Mar 2023 19:00:00 GMT</pubDate>
+            <author>hello@whimsical.com (Jess Olsen)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/d95b8c599cc6d729de3b0a12d541561f5627781f-680x560.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[The product discovery process]]></title>
+            <link>whimsical.com/blog/the-product-discovery-process</link>
+            <guid>whimsical.com/blog/the-product-discovery-process</guid>
+            <pubDate>Mon, 27 Feb 2023 21:00:00 GMT</pubDate>
+            <author>hello@whimsical.com (Jack Jenkins)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/60f9f46c023a6a93a1918e39f1f8c1489f8d39b8-680x560.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Empowered product development: Adapting ‘Shape Up’ to give teams more sway]]></title>
+            <link>whimsical.com/blog/empowered-product-development-adapting-shape-up-to-give-teams-more-sway</link>
+            <guid>whimsical.com/blog/empowered-product-development-adapting-shape-up-to-give-teams-more-sway</guid>
+            <pubDate>Mon, 05 Dec 2022 21:48:00 GMT</pubDate>
+            <author>hello@whimsical.com (Niklas Stephenson)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/0d2da27833ce19561daef6440476713deafed013-680x560.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[How we manage 24-hour support with a remote 4-person team]]></title>
+            <link>whimsical.com/blog/how-we-manage-24-hour-support-with-a-4-person-team</link>
+            <guid>whimsical.com/blog/how-we-manage-24-hour-support-with-a-4-person-team</guid>
+            <pubDate>Wed, 16 Nov 2022 21:15:00 GMT</pubDate>
+            <author>hello@whimsical.com (Jack Jenkins)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/5af894bf79e8420ee441b82f00ec9e0e8d9ae0ec-1354x1061.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Sticky notes and new improved boards]]></title>
+            <link>whimsical.com/blog/sticky-notes-and-new-improved-boards</link>
+            <guid>whimsical.com/blog/sticky-notes-and-new-improved-boards</guid>
+            <pubDate>Tue, 15 Mar 2022 20:15:00 GMT</pubDate>
+            <author>hello@whimsical.com (Jakob Bech)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/9a2a708a1fc014b20dd15c0d2cc15cc7feefb80e-680x560.jpg" length="0" type="image/jpg"/>
+        </item>
+        <item>
+            <title><![CDATA[We’ve raised $30M as our first funding, following four years of growth and profitability ]]></title>
+            <link>whimsical.com/blog/funding</link>
+            <guid>whimsical.com/blog/funding</guid>
+            <pubDate>Tue, 02 Nov 2021 08:30:00 GMT</pubDate>
+            <author>hello@whimsical.com (Kaspars Dancis)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/50bd8df80d1ccd4fe7988e2b00c70b24fab099c7-680x560.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Infinite mindset]]></title>
+            <link>whimsical.com/blog/infinite-mindset</link>
+            <guid>whimsical.com/blog/infinite-mindset</guid>
+            <pubDate>Tue, 13 Apr 2021 13:15:00 GMT</pubDate>
+            <author>hello@whimsical.com (Kaspars Dancis)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/d599f6198cdc29de0b0542b5a79b69ec8db5cbcf-680x560.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Whimsical guide to compensation]]></title>
+            <link>whimsical.com/blog/guide-to-compensation</link>
+            <guid>whimsical.com/blog/guide-to-compensation</guid>
+            <pubDate>Thu, 25 Mar 2021 07:17:00 GMT</pubDate>
+            <author>hello@whimsical.com (Kaspars Dancis)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/b904dda4602d2e98b86b91b0b6bf581d1f47ecab-680x560.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Investing in a sustainable future]]></title>
+            <link>whimsical.com/blog/investing-in-a-sustainable-future</link>
+            <guid>whimsical.com/blog/investing-in-a-sustainable-future</guid>
+            <pubDate>Wed, 28 Oct 2020 18:00:00 GMT</pubDate>
+            <author>hello@whimsical.com (Jānis Peisenieks)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/b173f837c8f4ccf8eca38ecbc5a84a7efa3c37fe-680x560.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Our philosophy]]></title>
+            <link>whimsical.com/blog/philosophy</link>
+            <guid>whimsical.com/blog/philosophy</guid>
+            <pubDate>Sun, 24 May 2020 00:19:00 GMT</pubDate>
+            <author>hello@whimsical.com (Kaspars Dancis)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/f7d4f0bd50c013c6a73e9eeb9e6e28836f6f53be-680x560.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Color theme use cases]]></title>
+            <link>whimsical.com/blog/color-theme-use-cases</link>
+            <guid>whimsical.com/blog/color-theme-use-cases</guid>
+            <pubDate>Thu, 16 Apr 2020 09:30:00 GMT</pubDate>
+            <author>hello@whimsical.com (Steve Schoeffel)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/4df53454fa8ba24c4f9fd12ae6c425dea057507d-680x560.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[On the path to sustainability]]></title>
+            <link>whimsical.com/blog/on-the-path-to-sustainability</link>
+            <guid>whimsical.com/blog/on-the-path-to-sustainability</guid>
+            <pubDate>Wed, 22 Jan 2020 16:00:00 GMT</pubDate>
+            <author>hello@whimsical.com (Jānis Peisenieks)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/67efdf59f7d1b85a8d1dea75b1319a34760554a4-680x560.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Introducing: Whimsical mind maps]]></title>
+            <link>whimsical.com/blog/introducing-whimsical-mind-maps</link>
+            <guid>whimsical.com/blog/introducing-whimsical-mind-maps</guid>
+            <pubDate>Mon, 17 Jun 2019 16:39:00 GMT</pubDate>
+            <author>hello@whimsical.com (Steve Schoeffel)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/24ea6ae67e1915ff5d1229b1942884f1924120f2-680x560.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[How we manage our projects with Whimsical]]></title>
+            <link>whimsical.com/blog/how-we-manage-our-projects-with-sticky-notes</link>
+            <guid>whimsical.com/blog/how-we-manage-our-projects-with-sticky-notes</guid>
+            <pubDate>Thu, 15 Nov 2018 06:05:00 GMT</pubDate>
+            <author>hello@whimsical.com (Kaspars Dancis)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/cd6e6cb023c5edebc9e35f1696689abd6c1da676-1360x1120.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Comments 2.0]]></title>
+            <link>whimsical.com/blog/comments2</link>
+            <guid>whimsical.com/blog/comments2</guid>
+            <pubDate>Wed, 14 Nov 2018 15:10:00 GMT</pubDate>
+            <author>hello@whimsical.com (Steve Schoeffel)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/097abcac3c896cc2ed8df72b55476db0ddcfc52b-1360x1120.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Why bootstrap?]]></title>
+            <link>whimsical.com/blog/why-bootstrap</link>
+            <guid>whimsical.com/blog/why-bootstrap</guid>
+            <pubDate>Wed, 12 Sep 2018 17:17:00 GMT</pubDate>
+            <author>hello@whimsical.com (Kaspars Dancis)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/df1943f6eeb8b6c369c37167c21aa2e8c34d294a-680x560.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[10 reflections from founding a SaaS startup]]></title>
+            <link>whimsical.com/blog/ten-reflections-from-founding-a-saas-startup</link>
+            <guid>whimsical.com/blog/ten-reflections-from-founding-a-saas-startup</guid>
+            <pubDate>Wed, 05 Sep 2018 05:25:00 GMT</pubDate>
+            <author>hello@whimsical.com (Steve Schoeffel)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/26a0c82bf2ac73d8d6f2eb94373d1e17ac5fed33-680x560.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[World cup 2018 finalists]]></title>
+            <link>whimsical.com/blog/world-cup-2018-finalists</link>
+            <guid>whimsical.com/blog/world-cup-2018-finalists</guid>
+            <pubDate>Sat, 14 Jul 2018 05:56:00 GMT</pubDate>
+            <author>hello@whimsical.com (Laima Dance)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/a9a0f5bc208def7e06d846dcd330d079ea137c8e-1360x1120.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Why we optimized left-handed shortcuts in Whimsical wireframes]]></title>
+            <link>whimsical.com/blog/why-we-optimized-left-handed-shortcuts-in-wireframes</link>
+            <guid>whimsical.com/blog/why-we-optimized-left-handed-shortcuts-in-wireframes</guid>
+            <pubDate>Mon, 02 Jul 2018 14:34:00 GMT</pubDate>
+            <author>hello@whimsical.com (Steve Schoeffel)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/f1069d0f5224a36e739b31f8d30bcf3ada9ea243-680x560.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Why you shouldn't design wireframes in sketch]]></title>
+            <link>whimsical.com/blog/why-you-shouldnt-design-wireframes-in-sketch</link>
+            <guid>whimsical.com/blog/why-you-shouldnt-design-wireframes-in-sketch</guid>
+            <pubDate>Thu, 14 Jun 2018 05:23:00 GMT</pubDate>
+            <author>hello@whimsical.com (Steve Schoeffel)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/132e234996da3c475290352f04b18afd00ebf505-680x560.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[A fast, collaborative wireframing app]]></title>
+            <link>whimsical.com/blog/fast-collaborative-wireframing-app</link>
+            <guid>whimsical.com/blog/fast-collaborative-wireframing-app</guid>
+            <pubDate>Fri, 01 Jun 2018 05:37:00 GMT</pubDate>
+            <author>hello@whimsical.com (Steve Schoeffel)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/dc8efab0d274dd4b80e1765a2154e54dbf2e7002-680x560.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Contextual toolbars deep dive]]></title>
+            <link>whimsical.com/blog/contextual-toolbars-deep-dive</link>
+            <guid>whimsical.com/blog/contextual-toolbars-deep-dive</guid>
+            <pubDate>Thu, 12 Apr 2018 05:40:00 GMT</pubDate>
+            <author>hello@whimsical.com (Steve Schoeffel)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/02752e7e123a227df0b882124ed80823a2d6f70e-680x560.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Comments for everyone]]></title>
+            <link>whimsical.com/blog/comments-for-everyone</link>
+            <guid>whimsical.com/blog/comments-for-everyone</guid>
+            <pubDate>Fri, 30 Mar 2018 05:44:00 GMT</pubDate>
+            <author>hello@whimsical.com (Steve Schoeffel)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/6749483ac0a4e89cdfbcb2f45570d3c69542940d-1360x1120.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[Doing more than one thing]]></title>
+            <link>whimsical.com/blog/doing-more-than-one-thing</link>
+            <guid>whimsical.com/blog/doing-more-than-one-thing</guid>
+            <pubDate>Mon, 19 Mar 2018 18:29:00 GMT</pubDate>
+            <author>hello@whimsical.com (Kaspars Dancis)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/8e0f36531750109bebb7094727a7a53e861ffbbf-1360x1120.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[How we designed Whimsical for speed]]></title>
+            <link>whimsical.com/blog/how-we-designed-whimsical-for-speed</link>
+            <guid>whimsical.com/blog/how-we-designed-whimsical-for-speed</guid>
+            <pubDate>Wed, 14 Mar 2018 05:48:00 GMT</pubDate>
+            <author>hello@whimsical.com (Steve Schoeffel)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/d172ca1dbd3fd5b9f0b155831bb4710e2f84d832-1360x1120.png" length="0" type="image/png"/>
+        </item>
+        <item>
+            <title><![CDATA[How we built Whimsical]]></title>
+            <link>whimsical.com/blog/how-we-built-whimsical</link>
+            <guid>whimsical.com/blog/how-we-built-whimsical</guid>
+            <pubDate>Fri, 23 Feb 2018 15:16:00 GMT</pubDate>
+            <author>hello@whimsical.com (Kaspars Dancis)</author>
+            <enclosure url="https://cdn.sanity.io/images/uy6owkrz/production/e644758e11752e26aebc62a6a75dd8032b73ad1d-1360x1120.png" length="0" type="image/png"/>
+        </item>
+    </channel>
+</rss>

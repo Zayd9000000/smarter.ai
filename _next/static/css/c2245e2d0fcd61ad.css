@@ -1,0 +1,213 @@
+@keyframes styles_slide-bg-back-and-forth__LMRf3{0%,to{background-position:0,0}50%{background-position:0,100%}}.styles_root__wnIar{align-items:center;display:flex;flex-direction:column;min-height:100vh;position:relative;background:none;background-size:200% 200%;animation:styles_slide-bg-back-and-forth__LMRf3 15s ease infinite}.styles_root__wnIar.styles_isAnimated__VI_zD{height:300vh}.styles_inner__suYcB{align-items:center;display:flex;justify-content:center;left:0;min-height:100vh;padding:100px 20px;top:0;width:100%;background:url('/_next/static/media/fluid.jpeg') center/cover no-repeat;backdrop-filter:blur(5px);background-attachment:fixed;transition:background-image 0.3s ease-in-out}.styles_root__wnIar.styles_isAnimated__VI_zD .styles_inner__suYcB{position:-webkit-sticky;position:sticky}.styles_textContainer__ym5D9{font-size:var(--body-jumbo--size);font-weight:var(--body-jumbo--font-weight);letter-spacing:var(--body-jumbo--letter-spacing);line-height:var(--body-jumbo--line-height);color:var(--base-500);font-size:32px;max-width:958px}.styles_textContainer__ym5D9 [data-active=true]{color:var(--base-800)}@media screen and (min-width:720px){.styles_textContainer__ym5D9{font-size:var(--body-jumbo--size)}}.styles_textContainer__ym5D9>p{margin-bottom:60px}.styles_textContainer__ym5D9>a{display:block;text-wrap:balance;transition:color var(--base-duration) var(--base-easing)}.styles_textContainer__ym5D9>a>[data-active=true]{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px}[data-whatintent=mouse] .styles_textContainer__ym5D9>a:hover,[data-whatintent=mouse] .styles_textContainer__ym5D9>a:hover>[data-active=true]{color:var(--purple-500)}.styles_imgContainer__UUHOS{display:inline-block;overflow:visible;position:relative;height:.85em;transition:width var(--base-duration) var(--base-easing);width:0}.styles_imgContainer__UUHOS>img{left:50%;position:absolute;top:50%;opacity:0;transform:translate(-25%,-50%) scale(.2);transform-origin:50% 50%;transition:opacity var(--slow-duration) var(--base-easing),transform var(--slow-duration) var(--base-easing)}@media screen and (max-width:719px){.styles_imgContainer__UUHOS>img{height:48px;width:48px}}.styles_imgContainer__UUHOS.styles_isVisible__CwzKq{width:60px}@media screen and (min-width:720px){.styles_imgContainer__UUHOS.styles_isVisible__CwzKq{width:100px}}.styles_imgContainer__UUHOS.styles_isVisible__CwzKq>img{opacity:1;transform:translate(-50%,-50%)}.styles_imgContainer__UUHOS.styles_isVisible__CwzKq.styles_isTiltedRight__aCpMC>img{transform:translate(-50%,-50%) rotate(5deg)}.styles_imgContainer__UUHOS.styles_isVisible__CwzKq.styles_isTiltedLeft__tlRgP>img{transform:translate(-50%,-50%) rotate(-10deg)}.styles_imgContainer__UUHOS.styles_isLogo__eZLzr>img{border-radius:13.33px;box-shadow:0 5.333px 10.667px 0 rgba(37,8,53,.12),0 2.667px 5.333px 5px rgba(37,8,53,.04)}.styles_imgContainer__UUHOS.styles_isLogo__eZLzr.styles_isVisible__CwzKq{width:80px}.styles_root__wnIar {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    min-height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Hide Resources section */
+.styles_linkGroup__hCbx5:nth-child(2) {
+    display: none !important;
+}
+
+/* Hide Get Whimsical section */
+.styles_linkGroup__hCbx5:nth-child(3) {
+    display: none !important;
+}
+
+/* Hide specific links */
+a[href="login.html"],
+a[href="signup.html"],
+a[href="pricing.html"],
+a[href="whimsical-way.html"] {
+    display: none !important;
+}
+
+/* Hide dropdown content initially */
+.styles_dropdown__VwYJ9,
+[class*="dropdown"],
+.styles_product__Ol94X,
+.styles_resources__KtI54 {
+    display: none !important;
+}
+
+/* Ensure Product button appears as a simple button initially */
+.styles_mainItemsList__Rz6vg > li > button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    color: inherit;
+    font-size: inherit;
+}
+
+/* Hide dropdown arrows and indicators */
+.styles_dropdownsArrow__OU2_7,
+[class*="dropdownArrow"] {
+    display: none !important;
+}
+
+/* Hide navbar dropdowns and resources by default */
+.styles_mainItem__64H_x.styles_hasDropdown__ECcwg,
+.styles_mainItemDropdownIcon__uAPEH,
+.styles_dropdown__uGggq,
+.styles_resources__1pTLP,
+.styles_product__0y84h {
+    display: none !important;
+}
+
+/* Only show the Product button without dropdown */
+.styles_mainItemsList__JjSEi > li > button.styles_mainItem__64H_x:not(.styles_hasDropdown__ECcwg) {
+    display: block !important;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    color: inherit;
+    font-size: inherit;
+}
+
+/* Hide all dropdown-related elements */
+[class*="dropdown"],
+[class*="dropdownArrow"],
+.styles_dropdownsFrame__pVFj9,
+.styles_dropdownsScroller__pTJ8e,
+.styles_dropdownsOverflowHandler__hkP5I {
+    display: none !important;
+}
+
+/* Hide mobile navbar buttons */
+.styles_barBtns__Pgy6D {
+    display: none !important;
+}
+
+/* Hide the divider in mobile navbar */
+.styles_barContentDivider__rk5MX {
+    display: none !important;
+}
+
+/* Adjust mobile navbar layout */
+.styles_barContent__s7orq {
+    justify-content: flex-end !important;
+    padding-right: 15px !important;
+}
+
+/* Ensure toggle button remains visible */
+.styles_toggle__TolLX {
+    display: flex !important;
+}
+
+/* Hide all dropdown items except Contact Sales */
+.styles_mobileLinks__RIGMp > *:not(:last-child),
+.styles_linkGroup__hCbx5,
+.styles_sectionHd__psked {
+    display: none !important;
+}
+
+/* Keep Contact Sales visible and modify its appearance */
+.styles_mobileLinks__RIGMp > *:last-child {
+    display: block !important;
+}
+
+/* Modify the Contact Sales text */
+.styles_mobileLinks__RIGMp > *:last-child a,
+.styles_mobileLinks__RIGMp > *:last-child button {
+    font-size: 16px !important;
+    color: #333 !important;
+    text-align: center !important;
+    width: 100% !important;
+    padding: 15px !important;
+}
+
+/* Hide the original text and replace with "Contact us" */
+.styles_mobileLinks__RIGMp > *:last-child a::before,
+.styles_mobileLinks__RIGMp > *:last-child button::before {
+    content: "Contact us" !important;
+    display: block !important;
+}
+
+.styles_mobileLinks__RIGMp > *:last-child a > *,
+.styles_mobileLinks__RIGMp > *:last-child button > * {
+    display: none !important;
+}
+
+/* Adjust spacing in mobile menu */
+.styles_mobileLinksInner__epfxb {
+    padding: 20px !important;
+}
+
+/* Remove entire mobile dropdown menu */
+.styles_scrollableArea__ltRVk,
+.styles_content__JMTKW,
+.styles_mobileLinks__RIGMp,
+.styles_mobileLinksInner__epfxb {
+    display: none !important;
+}
+
+/* Prevent dropdown from opening */
+.styles_mobile__VyZD8.styles_isOpen__HPG7h {
+    height: auto !important;
+    overflow: hidden !important;
+}
+
+/* Hide any remaining dropdown elements */
+[class*="mobileLinks"],
+[class*="scrollableArea"],
+[class*="dropdownContent"] {
+    display: none !important;
+}
+
+/* Enforce consistent image dimensions */
+[class*="colorLogo"] img,
+[class*="grayscaleLogo"] img,
+img[src*="notion"],
+img[src*="greenhouse"],
+img[src*="teams"],
+img[src*="excel"],
+img[src*="monday"],
+img[src*="calendly"],
+img[src*="zoom"],
+img[src*="clickup"],
+img[src*="google"],
+img[src*="linkedin"],
+img[src*="linear"],
+img[src*="indeed"] {
+    width: 90px !important;
+    height: 90px !important;
+    object-fit: contain !important;
+    aspect-ratio: 1/1 !important;
+}
+
+/* Ensure container sizes are consistent */
+[class*="imgContainer"],
+[class*="logoContainer"] {
+    width: 90px !important;
+    height: 90px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 10px !important;
+}
+
+/* Special handling for Monday and Calendly logos */
+img[src*="monday"],
+img[src*="calendly"] {
+    width: 110px !important;
+    height: 110px !important;
+    object-fit: contain !important;
+    aspect-ratio: 1/1 !important;
+    transform: translate(-50%, -50%) scale(1.22) !important;
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+}
+
+/* Ensure their containers can handle overflow */
+[class*="imgContainer"]:has(img[src*="monday"]),
+[class*="imgContainer"]:has(img[src*="calendly"]) {
+    overflow: visible !important;
+    z-index: 1 !important;
+    position: relative !important;
+}
