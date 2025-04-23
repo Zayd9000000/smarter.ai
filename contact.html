@@ -154,7 +154,7 @@
                 a.style.visibility = 'hidden';
                 document.body.appendChild(a);
                 if ('loading' !== document.readyState) c();
-                else if (window.addEventListener) document.addEventListener('DOMContentLoaded', c);
+                else if (window.addEventListener) document.addEventListener('load', c);
                 else {
                     var e = document.onreadystatechange || function() {};
                     document.onreadystatechange = function(b) {
