@@ -1484,37 +1484,98 @@
                 },
                 e8 = e => {
                     return (0, M.jsx)(M.Fragment, {
-                        children: (0, M.jsx)("li", {
-                            children: (0, M.jsx)("button", {
-                                className: e3().mainItem,
-                                onClick: () => {
-                                    const targetSection = document.querySelector(".styles_stickyFrame__xFNao");
-                                    const start = window.pageYOffset;
-                                    const targetPosition = targetSection.getBoundingClientRect().top + start;
-                                    const startTime = performance.now();
-                                    const duration = 1500; // Increased duration to 1.5 seconds for smoother animation
+                        children: (0, M.jsx)(M.Fragment, {
+                            children: (0, M.jsxs)("li", {
+                                children: [
+                                    (0, M.jsx)("button", {
+                                        className: e3().mainItem,
+                                        onClick: () => {
+                                            const targetSection = document.querySelector(".styles_isVisible__5wIUJ");
+                                            const start = window.pageYOffset;
+                                            const targetPosition = targetSection.getBoundingClientRect().top + start;
+                                            const startTime = performance.now();
+                                            const duration = 1500; // Increased duration to 1.5 seconds for smoother animation
 
-                                    function animate(currentTime) {
-                                        const timeElapsed = currentTime - startTime;
-                                        const progress = Math.min(timeElapsed / duration, 1);
-                                        
-                                        // Easing function for smoother animation
-                                        const easeInOutCubic = progress => progress < 0.5
-                                            ? 4 * progress * progress * progress
-                                            : 1 - Math.pow(-2 * progress + 2, 3) / 2;
-                                        
-                                        window.scrollTo(0, start + (targetPosition - start) * easeInOutCubic(progress));
-                                        
-                                        if (progress < 1) {
+                                            function animate(currentTime) {
+                                                const timeElapsed = currentTime - startTime;
+                                                const progress = Math.min(timeElapsed / duration, 1);
+                                                
+                                                // Easing function for smoother animation
+                                                const easeInOutCubic = progress => progress < 0.5
+                                                    ? 4 * progress * progress * progress
+                                                    : 1 - Math.pow(-2 * progress + 2, 3) / 2;
+                                                
+                                                window.scrollTo(0, start + (targetPosition - start) * easeInOutCubic(progress));
+                                                
+                                                if (progress < 1) {
+                                                    requestAnimationFrame(animate);
+                                                }
+                                            }
+                                            
                                             requestAnimationFrame(animate);
-                                        }
-                                    }
-                                    
-                                    requestAnimationFrame(animate);
-                                },
-                                children: "Product"
+                                        },
+                                        children: "Product"
+                                    }),
+                                    (0, M.jsx)("button", {
+                                        className: e3().mainItem,
+                                        onClick: () => {
+                                            const targetSection = document.querySelector(".styles_root__QNWby");
+                                            const start = window.pageYOffset;
+                                            const targetPosition = targetSection.getBoundingClientRect().top + start;
+                                            const startTime = performance.now();
+                                            const duration = 1500; // Increased duration to 1.5 seconds for smoother animation
+
+                                            function animate(currentTime) {
+                                                const timeElapsed = currentTime - startTime;
+                                                const progress = Math.min(timeElapsed / duration, 1);
+                                                
+                                                // Easing function for smoother animation
+                                                const easeInOutCubic = progress => progress < 0.5
+                                                    ? 4 * progress * progress * progress
+                                                    : 1 - Math.pow(-2 * progress + 2, 3) / 2;
+                                                
+                                                window.scrollTo(0, start + (targetPosition - start) * easeInOutCubic(progress));
+                                                
+                                                if (progress < 1) {
+                                                    requestAnimationFrame(animate);
+                                                }
+                                            }
+                                            
+                                            requestAnimationFrame(animate);
+                                        },
+                                        children: "Agents"
+                                    }),
+                                    (0, M.jsx)("button", {
+                                        className: e3().mainItem,
+                                        onClick: () => {
+                                            const targetSection = document.querySelector("footer");
+                                            const start = window.pageYOffset;
+                                            const targetPosition = targetSection.getBoundingClientRect().top + start;
+                                            const startTime = performance.now();
+                                            const duration = 1500; // Increased duration to 1.5 seconds for smoother animation
+
+                                            function animate(currentTime) {
+                                                const timeElapsed = currentTime - startTime;
+                                                const progress = Math.min(timeElapsed / duration, 1);
+                                                
+                                                // Easing function for smoother animation
+                                                const easeInOutCubic = progress => progress < 0.5
+                                                    ? 4 * progress * progress * progress
+                                                    : 1 - Math.pow(-2 * progress + 2, 3) / 2;
+                                                
+                                                window.scrollTo(0, start + (targetPosition - start) * easeInOutCubic(progress));
+                                                
+                                                if (progress < 1) {
+                                                    requestAnimationFrame(animate);
+                                                }
+                                            }
+                                            
+                                            requestAnimationFrame(animate);
+                                        },
+                                        children: "About Us"
+                                    })
+                                ]
                             })
-                            
                         })
                     })
                 };

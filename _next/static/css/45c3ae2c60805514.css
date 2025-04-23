@@ -3765,12 +3765,12 @@ body[data-page="contact"] .styles_barBtns__Pgy6D {
 }
 
 .styles_card__FA6eO {
-    aspect-ratio: 36/60;
+    aspect-ratio: 36/45;  /* Changed from 36/60 to make cards shorter */
     display: flex;
     flex-direction: column;
     justify-content: stretch;
     padding: 0 10px;
-    width: 260px
+    width: 260px;
 }
 
 @media screen and (min-width:420px) {
@@ -3801,9 +3801,9 @@ body[data-page="contact"] .styles_barBtns__Pgy6D {
     flex-grow: 1;
     flex-direction: column;
     overflow: hidden;
-    padding-bottom: 70%;
+    padding-bottom: 50%;  /* Changed from 70% to reduce vertical space */
     position: relative;
-    width: 100%
+    width: 100%;
 }
 
 .styles_cardInner__RyH_z:after {
@@ -4494,4 +4494,10 @@ body[data-page="contact"] .styles_barBtns__Pgy6D {
     height: 24px;
     width: auto;
     margin-left: -12px;
+}
+
+/* Hide Product and Agents buttons on contact page */
+body[data-page="contact"] .styles_mainItemsList__JjSEi > li:first-child button,
+body[data-page="contact"] .styles_mainItemsList__JjSEi > li:nth-child(2) button {
+    display: none !important;
 }
