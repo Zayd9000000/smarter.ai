@@ -2054,11 +2054,11 @@
 
 .styles_grid__jd5l3 {
     display: grid;
-    grid-gap: 12px;
+    grid-gap: -12px;
     gap: 12px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    padding-bottom: 5px;
+    padding-bottom: -2px;
     transform-origin: 50% 50%;
     transition: opacity var(--base-duration) var(--base-easing), transform var(--base-duration) var(--base-easing), filter var(--base-duration) var(--base-easing);
     width: 100%
@@ -2311,9 +2311,9 @@
 .styles_animatedList__PbNlD {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 8px; 
     opacity: 0;
-    transform: translateY(40px);
+    transform: translateY(10px);
     transition: opacity var(--fast-duration) var(--base-easing), transform var(--fast-duration) var(--base-easing);
     color: #fff;  /* Keep base color white */
 }

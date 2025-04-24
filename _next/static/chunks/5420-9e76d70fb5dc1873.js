@@ -2022,7 +2022,7 @@
                         isVerified: d,
                         content: A
                     } = e, [h, m] = (0, n.useState)(.1), u = (0, n.useRef)(null);
-                    return (0, n.useEffect)(() => {
+                    return (0, n.useEffect)(() => { /*Calm chaotic section*/ 
                         let e = u.current,
                             t = new IntersectionObserver(e => {
                                 e.forEach(e => {
