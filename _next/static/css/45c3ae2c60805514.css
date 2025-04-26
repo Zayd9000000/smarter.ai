@@ -3707,6 +3707,7 @@ body[data-page="contact"] .styles_barBtns__Pgy6D {
     padding: 40px 20px;
     text-align: left;
     background-color: #fff;
+    padding-top: 75px;
 }
 
 @media screen and (min-width:720px) {
@@ -3765,8 +3766,8 @@ body[data-page="contact"] .styles_barBtns__Pgy6D {
     font-weight: var(--body--base-font-weight);
     letter-spacing: var(--body-large--letter-spacing);
     line-height: var(--body-large--line-height);
-    color: var(--base-600);
-    opacity: .8;
+    color: black;
+    opacity: 1;
     text-align: left;
     width: 100%;
 }

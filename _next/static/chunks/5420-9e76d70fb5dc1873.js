@@ -321,7 +321,7 @@
             var T = e => {
                     let {
                         rawAmountSeen: t
-                    } = e, s = (0, O.rr)(4 * t - .75), a = G(s), i = (0, O.rr)(s + .3);
+                    } = e, s = (0, O.rr)(2 * t - 1.5), a = G(s), i = (0, O.rr)(s + .3);
                     return (0, d.jsxs)("h2", {
                         className: Z().root,
                         style: {
@@ -1189,7 +1189,7 @@
                 }, {
                     background: "linear-gradient(113deg, #81A3F8 0%, #B392DC 48.96%, #FF9FC3 100%)",
                     imageLarge: {
-                        src: "_next/static/media/Analytics.png",
+                        src: "_next/static/media/Graph.png",
                         height: 1600,
                         width: 2590,
                         blurDataURL: "data:image/webp;base64,UklGRloAAABXRUJQVlA4WAoAAAAQAAAABwAABAAAQUxQSA0AAAABD/D6/4iIMP8R/Q8IAFZQOCAmAAAAkAEAnQEqCAAFAAJAOCWkAALnWTsQAP79kp9V/VUoBps/8xPPCAA=",
@@ -1197,7 +1197,7 @@
                         blurHeight: 5
                     },
                     imageMedium: {
-                        src: "_next/static/media/Analytics.png",
+                        src: "_next/static/media/Graph.png",
                         height: 1200,
                         width: 1940,
                         blurDataURL: "data:image/webp;base64,UklGRloAAABXRUJQVlA4WAoAAAAQAAAABwAABAAAQUxQSA0AAAABD/D6/4iIMP8R/Q8IAFZQOCAmAAAAkAEAnQEqCAAFAAJAOCWkAALnWTsQAP79kp9V/VUoBps/8xPPCAA=",
@@ -1205,7 +1205,7 @@
                         blurHeight: 5
                     },
                     imageSmall: {
-                        src: "_next/static/media/Analytics.png",
+                        src: "_next/static/media/Graph.png",
                         height: 850,
                         width: 1376,
                         blurDataURL: "data:image/webp;base64,UklGRloAAABXRUJQVlA4WAoAAAAQAAAABwAABAAAQUxQSA0AAAABD/D6/4iIMP8R/Q8IAFZQOCAmAAAAkAEAnQEqCAAFAAJAOCWkAALnWbYAAP79kp9V/VUoBps/8xPPCAA=",
@@ -1698,8 +1698,8 @@
                                         className: ts().signupBtn,
                                         invert: !0,
                                         tag: "a",
-                                        href: "/signup",
-                                        children: "Get started free"
+                                        href: "/contact.html",
+                                        children: "Get started"
                                     })]
                                 })
                             }),(0, d.jsx)(ez.default, {
