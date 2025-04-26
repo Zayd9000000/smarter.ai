@@ -1462,7 +1462,20 @@ span.styles_pageBtn__lwtoj {
 }
 
 .styles_wrapper__TwzZk {
-    display: inline-flex
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    margin: 30px;
+}
+
+.styles_calloutHd__umTux {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    
 }
 
 .styles_primaryBtn__6yxCh {
@@ -1660,9 +1673,7 @@ a.styles_primaryBtn__6yxCh {
     font-weight: var(--hd--base-font-weight);
     font-size: var(--hd-h6-5--size);
     line-height: var(--hd-h6-5--line-height);
-    max-width: 400px;
     text-align: center;
-    text-wrap: balance
 }
 
 @media screen and (min-width:375px) {

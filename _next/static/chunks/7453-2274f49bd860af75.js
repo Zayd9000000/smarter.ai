@@ -408,6 +408,17 @@
                             WebkitBackdropFilter: "blur(100px)",
                         },
                         children: [(0, p.jsxs)("div", {
+                            className: X().ctaSection,
+                            children: [(0, p.jsx)("h2", {
+                                className: R().calloutHd,
+                                children: "Experience Adam. Rethink Hiring."
+                            }), (0, p.jsx)(D.default, {
+                                tag: "a",
+                                href: "/contact.html",
+                                isDark: t,
+                                children: "Request a Demo"
+                            })]
+                        }), (0, p.jsxs)("div", {
                             className: X().content,
                             children: [(0, p.jsx)("div", {
                                 className: X().contentHeader,
