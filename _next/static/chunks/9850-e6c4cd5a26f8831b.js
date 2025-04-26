@@ -80,8 +80,8 @@
             let _ = o().bind(u()),
                 f = [{
                     Icon: l.Z,
-                    title: "Asynchronous Interviews",
-                    description: "AI-interviews for the entire first round.",
+                    title: "Sourcing",
+                    description: "Identify top talent faster through data and recommendations.",
                     image: {
                         src: "_next/static/media/int.png",
                         height: 1230,
@@ -93,8 +93,8 @@
                     theme: "mint"
                 }, {
                     Icon: i.Z,
-                    title: "Applicant Sorting",
-                    description: "Automatic screening, scoring, and ranking.",
+                    title: "Screening",
+                    description: "Fairly evaluate large volumes of candidates based on real, role-specific skills.",
                     image: {
                         src: "_next/static/media/sorting.png",
                         height: 1230,
@@ -106,8 +106,8 @@
                     theme: "purple"
                 }, {
                     Icon: n.Z,
-                    title: "Personalized Dashboard",
-                    description: "Complete oversight at your fingertips.",
+                    title: "Matching",
+                    description: "Smart matching candidates to roles based on skills, experience, and cultural fit—not just keywords.",
                     image: {
                         src: "_next/static/media/Dashboard.png",
                         height: 1230,
@@ -119,8 +119,8 @@
                     theme: "teal"
                 }, {
                     Icon: A.Z,
-                    title: "Analysis and Consulting",
-                    description: "Provides clear, guided analysis for every candidate",
+                    title: "Interview Scheduling",
+                    description: "Let candidates book instantly—no back-and-forth emails.",
                     image: {
                         src: "_next/static/media/interview.png",
                         height: 1230,
@@ -130,7 +130,22 @@
                         blurHeight: 5
                     },
                     theme: "pink"
-                }];
+                }, {
+                    Icon: A.Z,
+                    title: "Interviewing",
+                    description: "Run adaptive, AI-led interviews at scale. Real-time voice. Real-time evaluation.",
+                    image: {
+                        src: "_next/static/media/interview.png",
+                        height: 1230,
+                        width: 2160,
+                        blurDataURL: "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACwAQCdASoIAAUAAkA4JZQCdAEO/EhAAP78JTgZbDmKL+0dO95CCwDwrrf6wAAA",
+                        blurWidth: 8,
+                        blurHeight: 5
+                    },
+                    theme: "pink"
+                }
+            
+            ];
             var b = e => {
                 let {
                     slides: t,

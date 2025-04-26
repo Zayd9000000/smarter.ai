@@ -432,7 +432,7 @@
                 eo = s.n(el);
             let ec = S().bind(eo()),
                 ed = () => (0, d.jsxs)(d.Fragment, {
-                    children: ["Smarter AI Employees for", (0, d.jsx)("br", {}), "Smarter Organizations."]
+                    children: ["Smarter AI:", (0, d.jsx)("br", {}), "Giving HR Superpowers."]
                 });
             var eA = () => {
                     let e = (0, R.useContext)(et.p).isHidden,
@@ -511,12 +511,12 @@
                                             })]
                                         }), (0, d.jsxs)("div", {
                                             className: eo().description,
-                                            children: "Providing elite AI employees, trained on top-tier academic, business and consulting playbooks. Our AI employees reason, decide, and deliver like top talent - substituting expensive consultants and contractors and enabling you to 10x your institutional learning and access to knowledge."
+                                            children: "Meet Adam — Our AI recruiter agent that handles everything from screening and interviewing to generating candidate insights. Built for speed. Designed for scale. Powered by intelligence."
                                         }), (0, d.jsx)(ea.default, {
                                             className: eo().signupBtn,
                                             tag: "a",
                                             href: "/contact.html",
-                                            children: "Get early access"
+                                            children: "Get started - Request a demo"
                                         })]
                                     })
                                 })
@@ -1049,7 +1049,7 @@
                                 }),
                                 children: (0, d.jsxs)("h2", {
                                     className: eC().slide1Hd,
-                                    children: ["Escape the clutter"]
+                                    children: ["Smarter by design"]
                                 })
                             }), (0, d.jsx)("div", {
                                 className: eI({
@@ -1060,12 +1060,12 @@
                                     className: eC().slide2Inner,
                                     children: [(0, d.jsxs)("h2", {
                                         className: eC().slide2Hd,
-                                        children: ["With SMARTER.AI"]
+                                        children: ["Adam is the Smartest Recruiter on the Market"]
                                     }), (0, d.jsx)(ek, {
                                         className: eC().animatedList,
                                         isBold: !0,
                                         isVisible: a,
-                                        listItems: ["Trains AI agents on real workflows", "Reasoning and data from world-class teams", "Thinks, acts, and drives value like top performers", "Amplifies your team's impact many times over"]
+                                        listItems: ["24/7 Availability", "Unlimited, parallel interviews", "Candidate first, human-like engagement", "Multilingual & accent-friendly (Arabic included)", "Real-time video avatar interface", "Technical and strategic skills assessment", "Anti-cheating fairness system", "One-click integration with your ATS", "Post-interview insights & reports", "Fully consistent, unbiased interviews"]
                                     })]
                                 })
                             }), (0, d.jsx)(es.Z, {
@@ -1116,11 +1116,11 @@
                             className: eL().stickyFrame,
                             children: [(0, d.jsx)("h2", {
                                 className: eL().hd,
-                                children: "The old way of hiring"
+                                children: "Measurable Results"
                             }), (0, d.jsx)(ek, {
                                 className: eL().animatedList,
                                 isVisible: t > .09999999999999999,
-                                listItems: ["Hiring feels reactive, not strategic", "First impressions rely too much on gut feeling", "Hours spent searching, scheduling, and sorting candidates", "Every tool adds a new tab, and new concerns", "Bottlenecks at every step lose great applicants"]
+                                listItems: ["Up to 80% automation of hiring processes", "2-3x reduction in time-to-hire", "20-30% drop in employee turnover", "30% reduction in cost-per-hire", "95%+ of candidates rate their experience positively"]
                             })]
                         })
                     })
@@ -1183,7 +1183,7 @@
                         children: [(0, d.jsx)("p", {
                             children: [(0, d.jsx)("b", {
                                 children: "Adam"
-                            }), " - The Smarter Recruiter. A conversational AI for high performance hiring. Provides AI contextual interviews customized by role and industry. Understands your needs. Chats with candidates. Shortlists instantly."]
+                            }), "  isn't just another AI interviewer—he's built to think like a top-tier consultant and assess like a technical expert. Trained on leading consulting frameworks from McKinsey, BCG, and Bain, Adam conducts case-based, adaptive interviews that mirror real-world business challenges. Whether you're hiring for strategic roles or deep technical expertise, Adam evaluates with precision, structure, and rigor."]
                         }), (0, d.jsx)]
                     })
                 }, {
@@ -1214,10 +1214,36 @@
                     },
                     id: "docs",
                     sectionName: "Sara",
-                    description: (0, d.jsxs)("p", {
+                    description: (0, d.jsxs)("div", {
                         children: [(0, d.jsx)("b", {
-                            children: "Sara"
-                        }), " - The Smarter Analyst. On demand and with access to an enormous data set comprising tier consulting playbooks, top 5 global MBA business curricula, and covering multiple industries and functions. Conducts research, crafts analysis, and supports strategic decision-making."]
+                            children: "Smarter Knowledge Graph:"
+                        }), " Connect your talent data and job roles through an intelligent, explainable graph that powers decision-making.", (0, d.jsx)("ul", {
+                            style: { 
+                                marginLeft: "30px",
+                                paddingLeft: "30px",
+                                marginTop: "10px",
+                                marginBottom: "10px",
+                                listStyleType: "disc"
+                            },
+                            children: [
+                                (0, d.jsx)("li", { 
+                                    style: { marginBottom: "8px" },
+                                    children: "Understand semantic skill-role relationships" 
+                                }),
+                                (0, d.jsx)("li", { 
+                                    style: { marginBottom: "8px" },
+                                    children: "Recommend best-fit candidates based on context" 
+                                }),
+                                (0, d.jsx)("li", { 
+                                    style: { marginBottom: "8px" },
+                                    children: "Transparent, traceable insights behind every hiring decision" 
+                                }),
+                                (0, d.jsx)("li", { 
+                                    style: { marginBottom: "8px" },
+                                    children: "Works with your ATS and org chart—no code required" 
+                                })
+                            ]
+                        })]
                     })
                 
                     
@@ -1241,15 +1267,11 @@
                                 className: eH().introInner,
                                 children: [(0, d.jsxs)("h2", {
                                     className: eH().introHd,
-                                    children: ["Not Just Smarter. Smarter Where It Matters."]
+                                    children: ["One-of-a-kind AI Hiring Agents"]
                                 }), (0, d.jsx)("p", {
                                     className: eH().introDescription,
                                     children: [(0, d.jsx)("p", {
-                                        children: "Vertical Expertise — AI employees trained on reasoning and workflows from the world's most successful organizations."
-                                    }), (0, d.jsx)("p", {
-                                        children: "Multilingual by Design — Built natively in English and Arabic (covering multiple GCC dialects)."
-                                    }), (0, d.jsx)("p", {
-                                        children: "Fast to Deploy — No lengthy onboarding. Start seeing value immediately."
+                                        children: "Customize Adam to match your hiring workflows, branding, and recruitment goals. Hello, effortless interviews. Hello, faster, smarter hiring."
                                     })]
                                 })]
                             })
@@ -1571,7 +1593,7 @@
                 }
             var tt = s(98226),
                 ts = s.n(tt);
-            let ta = [/*{
+            let ta = [{
                     bgKey: "mountain-falls",
                     title: "Product",
                     useCaseKey: "product",
@@ -1621,7 +1643,7 @@
                             noSpace: !0
                         }), ", it's easy to stay informed, make better decisions, and inspire your teams to deliver great work."]
                     })
-                }*/],
+                }],
                 ti = e => {
                     let {
                         bgKey: t,

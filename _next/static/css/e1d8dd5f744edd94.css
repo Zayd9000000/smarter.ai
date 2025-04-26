@@ -2090,7 +2090,9 @@
 
 @media screen and (min-width:1280px) {
     .styles_chip__5Jb2h {
-        max-width: 144px
+        max-width: 144px;
+        margin-left: 10%; /* Instead of a fixed pixel value */
+    margin-top: 5%;
     }
 }
 
@@ -2448,7 +2450,11 @@
 
 .styles_root__cKvIe {
     position: relative;
-    z-index: 1
+    z-index: 1;
+    transform: translateZ(0);
+    will-change: transform;
+    backface-visibility: hidden;
+    perspective: 1000px;
 }
 
 .styles_stickyFrame__ROoI_ {
@@ -2470,6 +2476,7 @@
 @media screen and (min-width:720px) {
     .styles_stickyFrame__ROoI_.styles_isMeasuredAndVisible__p6ONX {
         background-image: url(../media/fluids.png), url(../media/fluids.png);
+
         
     }
 }
@@ -2477,6 +2484,7 @@
 @media screen and (min-width:1440px) {
     .styles_stickyFrame__ROoI_.styles_isMeasuredAndVisible__p6ONX {
         background-image: url(../media/fluids.png), url(../media/fluids.png);
+
     }
 }
 
