@@ -1684,7 +1684,25 @@
                     }, [t, s, i, r]), (0, d.jsxs)(d.Fragment, {
                         children: [(0, d.jsxs)("div", {
                             className: ts().root,
-                            children: [(0, d.jsx)(ez.default, {
+                            children: [(0, d.jsx)("div", {
+                                className: ts().content,
+                                children: (0, d.jsxs)("div", {
+                                    className: ts().contentInner,
+                                    children: [(0, d.jsx)("h2", {
+                                        className: ts().contentHd,
+                                        children: "Secure. Enterprise-Ready. Future-focused."
+                                    }), (0, d.jsxs)("p", {
+                                        className: ts().contentDescription,
+                                        children: ["Smarter AI supports global organizations with security, scalability, and compliance."]
+                                    }), (0, d.jsx)(e$.Z, {
+                                        className: ts().signupBtn,
+                                        invert: !0,
+                                        tag: "a",
+                                        href: "/signup",
+                                        children: "Get started free"
+                                    })]
+                                })
+                            }),(0, d.jsx)(ez.default, {
                                 hideControls: !0,
                                 isAlwaysActive: !0,
                                 children: ta.map(e => {

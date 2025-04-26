@@ -3701,28 +3701,29 @@ body[data-page="contact"] .styles_barBtns__Pgy6D {
 }
 
 .styles_content___DROc {
-    padding: 0 20px 20px
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    text-align: left;
+    background-color: #fff;
 }
 
 @media screen and (min-width:720px) {
     .styles_content___DROc {
-        padding-bottom: 60px
-    }
-}
-
-@media screen and (min-width:1280px) {
-    .styles_content___DROc {
-        padding-bottom: 20px
+        padding: 60px 40px;
     }
 }
 
 .styles_contentInner__mkluN {
-    align-items: flex-start;
     display: flex;
     flex-direction: column;
+    align-items: left;
     gap: 24px;
-    margin: 0 auto;
-    max-width: 670px
+    max-width: 670px;
+    width: 100%;
+    text-align: left;
+    padding: 60px;
 }
 
 @media screen and (min-width:1280px) {
@@ -3735,7 +3736,19 @@ body[data-page="contact"] .styles_barBtns__Pgy6D {
     font-family: var(--hd-font-family);
     font-weight: var(--hd--base-font-weight);
     font-size: var(--hd-h6-5--size);
-    line-height: var(--hd-h6-5--line-height)
+    line-height: var(--hd-h6-5--line-height);
+    text-align: left;
+    width: 100%;
+    color: transparent;
+    background: linear-gradient(135deg, 
+        #B4D5FF 0%,  /* Pastel blue */
+        #9BA1FF 50%, /* Pastel purple */
+        #D4E1FF 100% /* Light pastel blue */
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 @media screen and (min-width:420px) {
@@ -3753,7 +3766,9 @@ body[data-page="contact"] .styles_barBtns__Pgy6D {
     letter-spacing: var(--body-large--letter-spacing);
     line-height: var(--body-large--line-height);
     color: var(--base-600);
-    opacity: .8
+    opacity: .8;
+    text-align: left;
+    width: 100%;
 }
 
 @media screen and (min-width:1280px) {
@@ -3766,12 +3781,15 @@ body[data-page="contact"] .styles_barBtns__Pgy6D {
 }
 
 .styles_signupBtn__RRb3l {
-    width: 100%
+    width: 100%;
+    max-width: 300px;
+    background-color: rgb(169, 165, 216);
+    color: white;
 }
 
 @media screen and (min-width:720px) {
     .styles_signupBtn__RRb3l {
-        width: auto
+        width: auto;
     }
 }
 
