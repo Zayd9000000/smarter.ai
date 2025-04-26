@@ -321,7 +321,7 @@
             var T = e => {
                     let {
                         rawAmountSeen: t
-                    } = e, s = (0, O.rr)(2 * t - 1.5), a = G(s), i = (0, O.rr)(s + .3);
+                    } = e, s = (0, O.rr)(2 * t - 1.2), a = G(s), i = (0, O.rr)(s + .3);
                     return (0, d.jsxs)("h2", {
                         className: Z().root,
                         style: {
@@ -1690,7 +1690,7 @@
                                     className: ts().contentInner,
                                     children: [(0, d.jsx)("h2", {
                                         className: ts().contentHd,
-                                        children: "Secure. Enterprise-Ready. Future-focused."
+                                        children: "Secure. Enterprise-Ready. Future focused."
                                     }), (0, d.jsxs)("p", {
                                         className: ts().contentDescription,
                                         children: ["Smarter AI supports global organizations with security, scalability, and compliance."]
@@ -2532,3 +2532,43 @@
         }
     }
 ]);
+
+// Optimize animations using Intersection Observer
+const animationObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        const element = entry.target;
+        if (entry.isIntersecting) {
+            // Only start animations when element is in viewport
+            element.classList.add('styles_isInViewport__inView');
+            
+            // Use requestAnimationFrame for smoother animations
+            requestAnimationFrame(() => {
+                if (element.classList.contains('styles_animationBoardBar__lR2FQ')) {
+                    element.style.opacity = '1';
+                }
+                if (element.classList.contains('styles_animationBoardDataPoint__5DSOV')) {
+                    element.style.transform = 'none';
+                    element.style.opacity = '1';
+                }
+            });
+        } else {
+            // Reset animations when out of viewport
+            element.classList.remove('styles_isInViewport__inView');
+            if (element.classList.contains('styles_animationBoardBar__lR2FQ')) {
+                element.style.opacity = '0';
+            }
+            if (element.classList.contains('styles_animationBoardDataPoint__5DSOV')) {
+                element.style.transform = 'translateY(40px)';
+                element.style.opacity = '0';
+            }
+        }
+    });
+}, {
+    threshold: 0.5,
+    rootMargin: '0px 0px -50px 0px'
+});
+
+// Observe animation elements
+document.querySelectorAll('.styles_animationBoardBar__lR2FQ, .styles_animationBoardDataPoint__5DSOV').forEach(element => {
+    animationObserver.observe(element);
+});

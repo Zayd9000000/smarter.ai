@@ -1463,10 +1463,11 @@ span.styles_pageBtn__lwtoj {
 
 .styles_wrapper__TwzZk {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     padding: 20px;
-    margin: 30px;
+    margin: 30px auto;
 }
 
 .styles_calloutHd__umTux {
@@ -1475,7 +1476,11 @@ span.styles_pageBtn__lwtoj {
     text-align: center;
     width: 100%;
     align-items: center;
-    
+    margin: 30px auto;
+}
+
+.ctaSection{
+    align-items: center;
 }
 
 .styles_primaryBtn__6yxCh {
@@ -1496,7 +1501,8 @@ span.styles_pageBtn__lwtoj {
     position: relative;
     text-decoration: none;
     transition: background-color var(--fast-duration) var(--base-easing), box-shadow var(--base-duration) var(--base-easing);
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
 }
 
 @media screen and (min-width:479px) {
@@ -1509,7 +1515,7 @@ span.styles_pageBtn__lwtoj {
 .styles_primaryBtn__6yxCh .styles_btnContent__9IKRH {
     padding-right: 12px;
     position: relative;
-    z-index: 1
+    z-index: 1;
 }
 
 .styles_primaryBtn__6yxCh .styles_iconWrapper__075uX {
@@ -1761,16 +1767,19 @@ a.styles_primaryBtn__6yxCh {
 .styles_footer__VhI4k {
     padding: 15px;
     background-color: #ffffff;
+    align-items: center;
 }
 
 @media screen and (min-width:992px) {
     .styles_footer__VhI4k {
         padding: 40px;
+        align-items: center;
     }
 }
 
 .styles_footer__VhI4k.styles_noPadTop__ze1Xx {
     padding-top: 0;
+    align-items: center;    
 }
 
 .styles_wrapper__5wI5z {
@@ -3043,7 +3052,7 @@ body[data-page="contact"] .styles_barBtns__Pgy6D {
     display: flex;
     align-items: center;
     gap: 20px;
-    height: 50px;
+    height: 15px;
 }
 
 .styles_logoLink__UJ4RK {
@@ -3068,7 +3077,7 @@ body[data-page="contact"] .styles_barBtns__Pgy6D {
 
 @media screen and (min-width:1440px) {
     .styles_logoLink__UJ4RK img {
-        height: 32px;
+        height: 64px;
         width: 128px;
         object-fit: contain;
     }
@@ -3082,7 +3091,7 @@ body[data-page="contact"] .styles_barBtns__Pgy6D {
 .styles_bigLogo__4smFV,
 .styles_smallLogo__eBRmU {
     display: block !important;
-    height: 40px !important;
+    height: 64px !important;
     width: auto !important;
     object-fit: contain !important;
     margin: 0 !important;

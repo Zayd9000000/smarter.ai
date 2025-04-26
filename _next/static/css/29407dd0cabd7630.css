@@ -4485,3 +4485,37 @@
     display: inline-block;
     margin-bottom: 8px
 }
+
+/* Add reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    .styles_root__jDH55,
+    .styles_root__cKvIe,
+    .styles_animationBoardBar__lR2FQ,
+    .styles_animationBoardDataPoint__5DSOV,
+    .styles_animationSlideImg__mtj8M {
+        animation: none !important;
+        transition: none !important;
+    }
+    
+    .styles_animationBoardBar__lR2FQ {
+        opacity: 1;
+    }
+    
+    .styles_animationBoardDataPoint__5DSOV {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+/* Optimize animation timing */
+:root {
+    --animation-duration: 0.3s;
+    --animation-easing: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.styles_animationBoardBar__lR2FQ,
+.styles_animationBoardDataPoint__5DSOV,
+.styles_animationSlideImg__mtj8M {
+    transition-duration: var(--animation-duration);
+    transition-timing-function: var(--animation-easing);
+}

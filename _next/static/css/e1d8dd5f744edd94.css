@@ -1464,7 +1464,8 @@
 .styles_root__ZNimv {
     display: flex;
     flex-direction: column;
-    gap: 24px
+    gap: 24px;
+    margin-top: -30px;
 }
 
 .styles_navScrollableArea__kTs58 {
@@ -1472,7 +1473,8 @@
     padding-right: 60px;
     display: flex;
     overflow-x: auto;
-    overflow-y: auto
+    overflow-y: auto;
+    margin-bottom: 20px;
 }
 
 .styles_navScrollableArea__kTs58::-webkit-scrollbar {
@@ -2688,7 +2690,7 @@
     }
 }
 
-@media screen and(min - width: 420 px) {
+@media screen and(min-width: 420px) {
     .styles_hd__BEeFs {
         font-family: var (--hd - font - family);
         font-weight: var (--hd--base - font - weight);

@@ -1,1 +1,36 @@
-@keyframes styles_slide-bg-back-and-forth__JNasT{0%,to{background-position:0,0}50%{background-position:0,100%}}.styles_root__Rw6XF{border-radius:9px;box-shadow:0 24px 48px 0 rgba(0,0,0,.2);height:615px;overflow:hidden;left:40px;top:80px;width:1080px}.styles_root__Rw6XF,.styles_root__Rw6XF>img{display:block;position:absolute}.styles_flowchart__yJN1Q{left:0;top:0;transition:transform var(--xx-slow-duration) var(--base-easing)}.styles_root__Rw6XF.styles_isActive__4aWoB .styles_flowchart__yJN1Q{transform:translateX(-180px)}.styles_titlebar__P6OO_{left:0;top:0}.styles_toolbar__0wDZa{left:6px;top:40px}
+@keyframes styles_slide-bg-back-and-forth__JNasT{0%,to{background-position:0,0}50%{background-position:0,100%}}.styles_root__Rw6XF{border-radius:9px;box-shadow:0 24px 48px 0 rgba(0,0,0,.2);height:615px;overflow:hidden;left:40px;top:80px;width:1080px}.styles_root__Rw6XF,.styles_root__Rw6XF>img{display:block;position:absolute}.styles_flowchart__yJN1Q{left:0;top:0;transition:transform var(--xx-slow-duration) var(--base-easing)}.styles_root__Rw6XF.styles_isActive__4aWoB .styles_flowchart__yJN1Q{transform:translateX(-180px)}.styles_titlebar__P6OO_{left:0;top:0}.styles_toolbar__0wDZa{left:6px;top:40px}.styles_root__jDH55 {
+    background: white;
+    contain: paint;
+    position: relative;
+    padding-top: 60px;
+    will-change: transform;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    animation: none !important;
+}
+
+.styles_root__cKvIe {
+    will-change: transform;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    animation: none !important;
+}
+
+/* Reduce animation complexity */
+.styles_animationBoardBar__lR2FQ {
+    animation: none !important;
+    transition: opacity 0.3s ease;
+}
+
+.styles_animationBoardDataPoint__5DSOV {
+    animation: none !important;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Optimize transitions */
+.styles_animationSlideImg__mtj8M {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    will-change: transform, opacity;
+}
