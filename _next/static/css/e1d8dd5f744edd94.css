@@ -1669,24 +1669,29 @@
 
 @media screen and (min-width:720px) {
     .styles_framePadder__ci_He {
-        padding-inline: 60px
+        padding-inline: 60px;
+        padding: -60px;
+
     }
 }
 
 @media screen and (min-width:992px) {
     .styles_framePadder__ci_He {
-        padding-inline: 40px
+        padding-inline: 90px;
+        padding: -170px;
     }
 }
 
 @media screen and (min-width:720px) {
     .styles_framePadder__ci_He {
-        padding-bottom: 120px
+        padding-bottom: 120px;
+        padding: -120px;
     }
 }
 
 .styles_frameInnerPadder__7WLkQ {
-    padding-inline: 20px
+    padding-inline: 20px;
+    margin-bottom: 50px;
 }
 
 .styles_frame__y6lRZ {
@@ -1712,7 +1717,7 @@
     list-style-type: none;
     margin-top: auto;
     overflow: hidden;
-    position: relative
+    position: relative;
 }
 
 .styles_frameSlides__KUQ7N>li {
@@ -3234,11 +3239,26 @@
     left: 20%;
     flex-direction: column;
     gap: 15px;
-    padding: 15px 6px 6px;
+    padding: 30px 20px 20px; /* Increased padding */
     position: absolute;
     top: 20%;
     width: 700px;
     z-index: 2
+}
+
+@media screen and (min-width:420px) {
+    .styles_carouselImagesFrame__4VMYM {
+        width: 982px;
+        padding: 40px 30px 30px; /* Increased padding for larger screens */
+    }
+}
+
+@media screen and (min-width:720px) {
+    .styles_carouselImagesFrame__4VMYM {
+        gap: 20px;
+        padding: 50px 40px 40px; /* Further increased padding for desktop */
+        width: 1310px
+    }
 }
 
 .styles_carouselImagesFrame__4VMYM:after {

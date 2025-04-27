@@ -321,7 +321,7 @@
             var T = e => {
                     let {
                         rawAmountSeen: t
-                    } = e, s = (0, O.rr)(2 * t - 1.2), a = G(s), i = (0, O.rr)(s + .3);
+                    } = e, s = (0, O.rr)(2 * t - 2), a = G(s), i = (0, O.rr)(s + .3);
                     return (0, d.jsxs)("h2", {
                         className: Z().root,
                         style: {
