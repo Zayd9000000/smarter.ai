@@ -550,7 +550,7 @@
                     teams: .4,
                     trello: .66
                 };
-            var eg = [{
+            var eg = [/*{
                 key: "notion",
                 name: "Notion",
                 colorLogo: {
@@ -567,42 +567,25 @@
                     blurWidth: 0,
                     blurHeight: 0
                 }
-            }, {
-                key: "confluence",
-                name: "Confluence",
-                colorLogo: {
-                    src: "greenhouse.jpg",
-                    height: 90,
-                    width: 90,
-                    blurWidth: 0,
-                    blurHeight: 0
-                },
-                grayscaleLogo: {
-                    src: "greenhouse.jpg",
-                    height: 90,
-                    width: 90,
-                    blurWidth: 0,
-                    blurHeight: 0
-                }
-            }, {
+            },*/  {
                 key: "teams",
                 name: "Teams",
                 colorLogo: {
-                    src: "teams.png",
+                    src: "Queue.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
                     blurHeight: 0
                 },
                 grayscaleLogo: {
-                    src: "teams.png",
+                    src: "Queue.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
                     blurHeight: 0
                 },
                 notifyAt: .14
-            }, {
+            },/* {
                 key: "asana",
                 name: "Asana",
                 colorLogo: {
@@ -637,18 +620,18 @@
                     blurHeight: 0
                 },
                 notifyAt: .6
-            }, {
+            },*/ {
                 key: "trello",
                 name: "Trello",
                 colorLogo: {
-                    src: "calendly.png",
+                    src: "resume.png",
                     height: 110,
                     width: 110,
                     blurWidth: 0,
                     blurHeight: 0
                 },
                 grayscaleLogo: {
-                    src: "calendly.png",
+                    src: "resume.png",
                     height: 110,
                     width: 110,
                     blurWidth: 0,
@@ -659,14 +642,14 @@
                 key: "coda",
                 name: "Coda",
                 colorLogo: {
-                    src: "zoom.png",
+                    src: "money.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
                     blurHeight: 0
                 },
                 grayscaleLogo: {
-                    src: "zoom.png",
+                    src: "money.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
@@ -676,21 +659,21 @@
                 key: "clickup",
                 name: "ClickUp",
                 colorLogo: {
-                    src: "clickup.png",
+                    src: "interviewlive.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
                     blurHeight: 0
                 },
                 grayscaleLogo: {
-                    src: "clickup.png",
+                    src: "interviewlive.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
                     blurHeight: 0
                 },
                 notifyAt: .2
-            }, {
+            },/* {
                 key: "gsuite",
                 name: "GSuite",
                 colorLogo: {
@@ -725,18 +708,18 @@
                     blurWidth: 0,
                     blurHeight: 0
                 }
-            }, {
+            },*/ {
                 key: "linear",
                 name: "Linear",
                 colorLogo: {
-                    src: "zip.jpg",
+                    src: "search.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
                     blurHeight: 0
                 },
                 grayscaleLogo: {
-                    src: "zip.jpg",
+                    src: "search.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
@@ -747,14 +730,14 @@
                 key: "lucidchart",
                 name: "LucidChart",
                 colorLogo: {
-                    src: "indeed.png",
+                    src: "timer.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
                     blurHeight: 0
                 },
                 grayscaleLogo: {
-                    src: "indeed.png",
+                    src: "timer.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,

@@ -1891,7 +1891,7 @@
     background-image: linear-gradient(rgba(34, 10, 51, .2), rgba(34, 10, 51, .2)), url(../media/s%401000x1000%401x.5daeca15.webp);
     background-position: 0 0, 50% -350px;
     background-repeat: no-repeat;
-    background-size: cover, 1360px auto;
+    background-size: 80%, 1360px auto;
     margin-bottom: -320px;
     padding-bottom: 320px;
     position: relative
@@ -1906,7 +1906,7 @@
 @media screen and (min-width:720px) {
     .styles_intro__zZi8y {
         background-position: 0 0, 50% -660px;
-        background-size: cover, 1640px auto
+        background-size: 80%, 1640px auto
     }
 }
 
