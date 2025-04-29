@@ -1700,12 +1700,47 @@
     box-shadow: 0 24px 48px 0 rgba(0, 0, 0, .2);
     overflow: hidden;
     margin: 0 auto;
-    width: 800px
+    width: 800px;
+    position: relative;
+    isolation: isolate;
+}
+
+.styles_frame__y6lRZ::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(34, 10, 51, .2);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-radius: inherit;
+    z-index: 1;
+}
+
+.styles_frame__y6lRZ::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: inherit;
+    -webkit-mask-image: linear-gradient(hsla(0, 0%, 100%, .15), hsla(0, 0%, 100%, .038));
+    mask-image: linear-gradient(hsla(0, 0%, 100%, .15), hsla(0, 0%, 100%, .038));
+    pointer-events: none;
+    z-index: 2;
+}
+
+.styles_frame__y6lRZ:hover::before {
+    background: rgba(34, 10, 51, .3);
+}
+
+.styles_frame__y6lRZ:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 28px 56px 0 rgba(0, 0, 0, .25);
 }
 
 @media screen and (min-width:1280px) {
     .styles_frame__y6lRZ {
-        width: 1080px
+        width: 1080px;
+        border-radius: 20px;
     }
 }
 
@@ -1718,6 +1753,13 @@
     margin-top: auto;
     overflow: hidden;
     position: relative;
+    z-index: 3;
+    transition: all var(--base-duration) var(--base-easing);
+}
+
+.styles_frameSlides__KUQ7N:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 0 .5px rgba(0, 0, 0, .4), 0 24px 48px 0 rgba(0, 0, 0, .25);
 }
 
 .styles_frameSlides__KUQ7N>li {
@@ -1759,7 +1801,12 @@
     position: relative;
     height: 220vh;
     margin-top: 0;  /* Remove top margin */
-    background: none;  /* Remove any background */
+    background: linear-gradient(135deg, 
+        #d6e8fe 0%,  /* Pastel blue */
+        #b0b5f7 50%, /* Pastel purple */
+        #e3ebfc 100% /* Light pastel blue */
+    );  /* Remove any background */
+    
 }
 
 .styles_stickyContainer__pjExM {
@@ -1782,28 +1829,27 @@
     will-change: transform;
     contain: paint;
     gap: 40px;
-    background-image: url(../media/cool.jpg);
-    background-size: 200% auto;
+    background-image: url(../media/cool.png);
+    background-size: 345% auto;  /* Increased from 300% */
     background-repeat: no-repeat;
     background-position: center;
 }
 
 @media screen and (min-width:420px) {
     .styles_stickyContainer__pjExM {
-
-        background-size: 500% auto;
+        background-size: 575% auto;  /* Increased from 500% */
     }
 }
 
 @media screen and (min-width:992px) {
     .styles_stickyContainer__pjExM {
-        background-size: 225% auto;
+        background-size: 259% auto;  /* Increased from 225% */
     }
 }
 
 @media screen and (min-width:1800px) {
     .styles_stickyContainer__pjExM {
-        background-size: 225% auto;
+        background-size: 259% auto;  /* Increased from 225% */
     }
 }
 

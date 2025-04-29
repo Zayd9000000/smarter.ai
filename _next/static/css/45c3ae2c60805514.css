@@ -19,7 +19,6 @@
     display: flex;
     min-height: 100vh;
     width: 100%;
-    background: var(--main-gradient);
 }
 
 @media screen and (min-width:720px) {
@@ -2086,7 +2085,8 @@ a.styles_primaryBtn__6yxCh {
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     color: #fff;
-    padding: 24px 16px
+    padding: 24px 16px;
+    margin-top: 50px;
 }
 
 .styles_content__Zkrjr:after {

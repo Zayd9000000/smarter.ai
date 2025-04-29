@@ -211,9 +211,9 @@
     padding-inline: 15px;
     padding-top: 82px;
     background-color: #fff;
-    background-image: url(_next/static/media/cool.jpg);
-    background-size: cover;
-    background-position: 200% 0
+    background-image: url(_next/static/media/cool.png);
+    background-size: 50%;
+    background-position: 100% 0
 }
 
 @media screen and (min-width:720px) {
@@ -249,24 +249,27 @@
 @media screen and (min-width:1440px) {
     .styles_mainContent__7IDA2 {
         padding-top: 124px;
+        background-position: 50% 30;
     }
 }
 
 @media screen and (min-width:720px) {
     .styles_mainContent__7IDA2 {
-        background-image: url(_next/static/media/cool.jpg);
-        background-color: #fff;    }
+        background-image: url(_next/static/media/cool.png);
+        background-color: #fff;
+        background-position: 100% 50;
+        }
 }
 
 @media screen and (min-width:1280px) {
     .styles_mainContent__7IDA2 {
-        background-image: url(_next/static/media/cool.jpg);
+        background-image: url(_next/static/media/cool.png);
         background-color: #fff;    }
 }
 
 @media screen and (min-width:2200px) {
     .styles_mainContent__7IDA2 {
-        background-image: url(_next/static/media/cool.jpg);
+        background-image: url(_next/static/media/cool.png);
         background-color: #fff;
     }
 }
