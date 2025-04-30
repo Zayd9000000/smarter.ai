@@ -2383,7 +2383,7 @@
 }
 
 .styles_animatedList__PbNlD > li {
-    font-size: var(--body-small--size);
+    font-size: 100px;
     font-weight: var(--body--base-font-weight);
     letter-spacing: var(--body-small--letter-spacing);
     line-height: var(--body-small--line-height);
@@ -2402,7 +2402,7 @@
 
 @media screen and (min-width:420px) {
     .styles_animatedList__PbNlD > li {
-        font-size: var(--body-regular--size);
+        font-size: 20px;
         font-weight: var(--body--base-font-weight);
         letter-spacing: var(--body-regular--letter-spacing);
         line-height: var(--body-regular--line-height);
@@ -2480,7 +2480,7 @@
 
 @media screen and (min-width:420px) {
     .styles_animatedList__PbNlD.styles_isBold__Ymbjg > li {
-        font-size: var(--body-regular--size);
+        font-size: 20px;
         font-weight: var(--body--base-font-weight);
         letter-spacing: var(--body-regular--letter-spacing);
         line-height: var(--body-regular--line-height);
@@ -2862,7 +2862,7 @@
 
     .styles_introDescription__QLb5g,
     .styles_introPreHd__pGt5T {
-        padding-left: 120px
+        padding-left: 0px
     }
 }
 
