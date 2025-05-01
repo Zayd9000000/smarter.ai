@@ -550,53 +550,70 @@
                     teams: .4,
                     trello: .66
                 };
-            var eg = [/*{
+            var eg = [{
                 key: "notion",
                 name: "Notion",
                 colorLogo: {
-                    src: "notion.png",
+                    src: "laptop.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
                     blurHeight: 0
                 },
                 grayscaleLogo: {
-                    src: "notion.png",
+                    src: "laptop.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
                     blurHeight: 0
                 }
-            },*/  {
-                key: "teams",
-                name: "Teams",
+            },{
+                key: "confluence",
+                name: "Confluence",
                 colorLogo: {
-                    src: "Queue.png",
+                    src: "video.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
                     blurHeight: 0
                 },
                 grayscaleLogo: {
-                    src: "Queue.png",
+                    src: "video.png",
+                    height: 90,
+                    width: 90,
+                    blurWidth: 0,
+                    blurHeight: 0
+                }
+            },  {
+                key: "teams",
+                name: "Teams",
+                colorLogo: {
+                    src: "headset.png",
+                    height: 90,
+                    width: 90,
+                    blurWidth: 0,
+                    blurHeight: 0
+                },
+                grayscaleLogo: {
+                    src: "headset.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
                     blurHeight: 0
                 },
                 notifyAt: .14
-            },/* {
+            }, {
                 key: "asana",
                 name: "Asana",
                 colorLogo: {
-                    src: "excel.png",
+                    src: "resume.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
                     blurHeight: 0
                 },
                 grayscaleLogo: {
-                    src: "excel.png",
+                    src: "resume.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
@@ -606,32 +623,32 @@
                 key: "monday",
                 name: "Monday",
                 colorLogo: {
-                    src: "monday.png",
+                    src: "reading.png",
                     height: 110,
                     width: 110,
                     blurWidth: 0,
                     blurHeight: 0
                 },
                 grayscaleLogo: {
-                    src: "monday.png",
+                    src: "reading.png",
                     height: 110,
                     width: 110,
                     blurWidth: 0,
                     blurHeight: 0
                 },
                 notifyAt: .6
-            },*/ {
+            }, {
                 key: "trello",
                 name: "Trello",
                 colorLogo: {
-                    src: "resume.png",
+                    src: "stacks.png",
                     height: 110,
                     width: 110,
                     blurWidth: 0,
                     blurHeight: 0
                 },
                 grayscaleLogo: {
-                    src: "resume.png",
+                    src: "stacks.png",
                     height: 110,
                     width: 110,
                     blurWidth: 0,
@@ -642,14 +659,14 @@
                 key: "coda",
                 name: "Coda",
                 colorLogo: {
-                    src: "money.png",
+                    src: "stress.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
                     blurHeight: 0
                 },
                 grayscaleLogo: {
-                    src: "money.png",
+                    src: "stress.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
@@ -659,32 +676,32 @@
                 key: "clickup",
                 name: "ClickUp",
                 colorLogo: {
-                    src: "interviewlive.png",
+                    src: "desktop.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
                     blurHeight: 0
                 },
                 grayscaleLogo: {
-                    src: "interviewlive.png",
+                    src: "desktop.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
                     blurHeight: 0
                 },
                 notifyAt: .2
-            },/* {
+            }, {
                 key: "gsuite",
                 name: "GSuite",
                 colorLogo: {
-                    src: "google.png",
+                    src: "confusion.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
                     blurHeight: 0
                 },
                 grayscaleLogo: {
-                    src: "google.png",
+                    src: "confusion.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
@@ -695,31 +712,31 @@
                 key: "miro",
                 name: "Miro",
                 colorLogo: {
-                    src: "linkedin.png",
+                    src: "time.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
                     blurHeight: 0
                 },
                 grayscaleLogo: {
-                    src: "linkedin.png",
+                    src: "time.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
                     blurHeight: 0
                 }
-            },*/ {
+            }, {
                 key: "linear",
                 name: "Linear",
                 colorLogo: {
-                    src: "search.png",
+                    src: "comparing.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
                     blurHeight: 0
                 },
                 grayscaleLogo: {
-                    src: "search.png",
+                    src: "comparing.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
@@ -730,14 +747,14 @@
                 key: "lucidchart",
                 name: "LucidChart",
                 colorLogo: {
-                    src: "timer.png",
+                    src: "sorting.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
                     blurHeight: 0
                 },
                 grayscaleLogo: {
-                    src: "timer.png",
+                    src: "sorting.png",
                     height: 90,
                     width: 90,
                     blurWidth: 0,
